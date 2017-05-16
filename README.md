@@ -1,3 +1,4 @@
+
 #vue
 
 ### 运行方式
@@ -14,4 +15,3 @@ npm run dev
 npm run build   //运行结束后，在当前目录下会在生成 dist 目录，将dist目录放在服务器上，使用服务器上访问index.html的url即可
 
 
- 
