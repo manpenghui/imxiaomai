@@ -1,0 +1,156 @@
+#balancePage {
+    .header {
+        width: 100%;
+        height: 1rem;
+        background: #ffcb1b;
+        box-sizing: border-box;
+        padding: 0 0.12rem 0 0.12rem;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        margin-bottom: 0.08rem;
+        .left {
+            line-height: 1rem;
+            .font {
+                font-size: 0.15rem;
+            }
+            .money {
+                font-size: 0.36rem;
+            }
+        }
+        .right {
+            line-height: 1rem;
+            margin: auto 0;
+            .recharge {
+                display: block;
+                width: 0.9rem;
+                height: 0.36rem;
+                background: #f44732;
+                text-align: center;
+                line-height: 0.36rem;
+                color: #fff;
+                border-radius: 10px;
+            }
+        }
+    }
+    #tabs {
+        width: 100%;
+        height: 0.44rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        line-height: 0.44rem;
+        text-align: center;
+        background: #fff;
+        li {
+            width: 50%;
+            color: #666;
+            border-bottom: 2px solid #eee;
+            color: #777;
+            font-size: 0.16rem;
+        }
+        .tab_active {
+            color: #f44732;
+            border-bottom: 2px solid #f44732;
+        }
+    }
+    #tab_con {
+        background: #fff;
+        width: 100%;
+        // padding: 0 0.12rem 0 0.12rem;
+        box-sizing: border-box;
+        div {
+            display: none;
+            div {
+                display: block
+            }
+            ul {
+                padding: 0 0.12rem 0 0.12rem;
+                margin-bottom: 0.6rem;
+                .item {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 0.6rem;
+                    box-sizing: border-box;
+                    padding: 0.12rem 0 0.12rem 0;
+                    font-size: 0.15rem;
+                    border-bottom: 1px solid #eee;
+                    .left {
+                        // height: 0.36rem;
+                        p:first-child {
+                            color: #333;
+                            margin-bottom: 0.08rem;
+                            font-size: 0.13rem;
+                        }
+                        p:last-child {
+                            font-size: 0.12rem;
+                            color: #666;
+                        }
+                        .leftP {
+                            margin-top: 0.08rem;
+                        }
+                    }
+                    .leftSpeci {
+                        width: 55%;
+                        p {}
+                    }
+                    .right {
+                        // height: 0.36rem;
+                        p:first-child {
+                            color: #f44732;
+                            margin-bottom: 0.08rem;
+                            font-size: 0.13rem;
+                        }
+                        p:last-child {
+                            color: #666;
+                            margin-bottom: 0.08rem;
+                            font-size: 0.12rem;
+                        }
+                    }
+                }
+                .item:last-child {
+                    border: 0;
+                }
+            }
+        }
+        .tab_con_active {
+            display: block;
+        }
+        #expenses {
+            .item {
+                border-bottom: 1px solid #eee;
+                .left {
+                    p:first-child {
+                        color: #333;
+                    }
+                    p:last-child {
+                        color: #666;
+                    }
+                }
+                .right {
+                    height: 100%;
+                    line-height: 0.3rem;
+                    color: #ffae00;
+                }
+            }
+            .item:last-child {
+                border: 0;
+            }
+        }
+        #footer {
+            width: 100%;
+            height: .43rem;
+            background: #e9e9e9;
+            text-align: center;
+            box-sizing: border-box;
+            color: #777;
+            padding-top: .2rem;
+            font-size: .12rem;
+            margin-bottom: .5rem;
+            margin-top: .2rem;
+        }
+        #footer.hidden {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+#app {
+    height: 100%;
+    .com-app {
+        height: 100%;
+    }
+}
+
+#loginPage {
+    width: 100%;
+    height: 100%;
+    font-size: 0.15rem;
+    background-attachment: fixed;
+    background: #FFFFFF url(../../static/images/bg.png) no-repeat bottom;
+    background-size: 100%;
+    .content {
+        box-sizing: border-box;
+        padding: 0.3rem 0.15rem;
+        font-size: 0.15rem;
+        .avatorImg {
+            display: block;
+            width: 58%;
+            margin: 0 auto;
+            margin-bottom: 0.3rem;
+        }
+        form table tr td {
+            height: 0.5rem;
+            border-bottom: 1px solid #DDDDDD;
+            box-sizing: border-box;
+            color: #333333;
+            input {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                outline: none;
+                width: 50%;
+                display: inline-block;
+                height: 0.35rem;
+                font-size: 0.15rem;
+            }
+            .numInput {
+                width: 70%;
+            }
+            .sendMsg {
+                width: 1rem;
+                color: #f45440;
+                background: #ffd200;
+                height: 0.35rem;
+                display: inline-block;
+                text-align: center;
+                line-height: 0.35rem;
+                font-size: 0.14rem;
+                border-radius: 0.05rem;
+                float: right;
+            }
+            .sendMsgOff {
+                width: 1rem;
+                color: #969696;
+                background: #EEEEEE;
+                height: 0.35rem;
+                display: inline-block;
+                text-align: center;
+                line-height: 0.35rem;
+                font-size: 0.14rem;
+                border-radius: 0.05rem;
+                float: right;
+            }
+        }
+        form .hasMargin {
+            margin-right: 0.2rem;
+            width: 25%;
+        }
+        .login {
+            width: 92%;
+            height: 0.45rem;
+            text-align: center;
+            line-height: 0.45rem;
+            border-radius: 0.05rem;
+            color: #969696;
+            background: #EEEEEE;
+            font-size: 0.18rem;
+            margin: 0 auto;
+            margin-top: 0.35rem;
+        }
+        .loginOn {
+            width: 92%;
+            height: 0.45rem;
+            text-align: center;
+            line-height: 0.45rem;
+            border-radius: 0.05rem;
+            font-size: 0.18rem;
+            // letter-spacing: 0.25rem;
+            margin: 0 auto;
+            margin-top: 0.35rem;
+            color: #F45440;
+            background: #FFD200;
+        }
+    }
+}

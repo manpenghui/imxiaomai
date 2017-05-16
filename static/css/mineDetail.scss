@@ -1,0 +1,92 @@
+.mineDetail {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 0rem 0.12rem 0 0.12rem;
+    font-size: 0.12rem;
+    color: #333;
+    .item {
+        display: flex;
+        justify-content: space-between;
+        height: 0.48rem;
+        border-bottom: 1px solid #eee;
+        box-sizing: border-box;
+        line-height: 0.48rem;
+        img {
+            width: 0.48rem;
+            height: 0.48rem;
+            border-radius: 50%;
+            margin: auto 0;
+            // border: 1px solid gray;
+        }
+        span:last-child {
+            color: #666;
+        }
+    }
+    .uploadImgItem {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eee;
+        height: 0.84rem;
+        .left {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding: 0.24rem 0 0.24rem 0;
+            .p1 {
+                color: #333;
+                margin-bottom: 0.08rem;
+                font-size: 0.14rem;
+                span {
+                    color: #f44732;
+                }
+            }
+            .p2 {
+                font-size: 0.1rem;
+                color: #666;
+                // transform: scale(0.5)
+            }
+        }
+        .right {
+            box-sizing: border-box;
+            margin: 0.06rem 0;
+            border: 1px solid #d3d3d3;
+            background: #fff;
+            width: 0.72rem;
+            height: 0.72rem;
+            display: flex;
+            img {
+                display: block;
+                width: 0.41rem;
+                height: 0.41rem;
+                position: relative;
+                margin: auto;
+            }
+        }
+    }
+    .item:last-child {
+        border: 0;
+    }
+    .imgContent {
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+        width: 100%;
+        img {
+            width: 50%;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.1rem;
+        }
+        .upload_btn {
+            width: 100%;
+            text-align: center;
+            height: 0.5rem;
+            line-height: 0.5rem;
+            font-size: 0.18rem;
+            border-radius: 0.05rem;
+            background: #ffd01b;
+            color: #333;
+        }
+    }
+}

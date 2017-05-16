@@ -1,0 +1,168 @@
+
+
+.rechargeCenter {
+    width: 100%;
+    background: #f6f6f6;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 1rem;
+    height: 100%;
+    .header {
+        width: 100%;
+        font-size: 0.16rem;
+        color: #666;
+        padding: 0.2rem 0 0.2rem 0.15rem;
+        overflow: hidden;
+        box-sizing: border-box;
+        img {
+            width: 0.15rem;
+            height: 0.15rem;
+            margin-right: 0.1rem;
+        }
+        .money {
+            color: #f45440;
+        }
+    }
+    .types {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 0.15rem;
+        .item {
+            width: 1.05rem;
+            height: 0.55rem;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 0.03rem;
+            background: #fff;
+            margin-bottom: 0.1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 0.15rem;
+            p:first-child {
+                font-size: 0.18rem;
+                color: #f45440;
+                text-align: center;
+            }
+            p:last-child {
+                font-size: 0.11rem;
+                color: #666;
+                text-align: center;
+            }
+        }
+        .type_active {
+            border: 3px solid #ffb820;
+            border-radius: 0.03rem;
+            background-image: url(../../static/images/select.png);
+            background-repeat: no-repeat;
+            // background-attachment: fixed;
+            background-position: 100% 110%;
+            background-size: 25%;
+        }
+    }
+    .selfChoice {
+        width: 92%;
+        // height: 0.45rem;
+        // background: #fff;
+        border-radius: 0.03rem;
+        clear: both;
+        margin: 0 0.15rem 0 0.15rem;
+        .inputWrap {
+            width: 100%;
+            height: 0.45rem;
+            background: #fff;
+            margin-bottom: 0.15rem;
+            input {
+                margin-left: 0.15rem;
+                border: 0;
+                height: 0.45rem;
+                width: 95%;
+            }
+        }
+        .tip {
+            font-size: 0.12rem;
+            color: #f45440;
+            text-align: center;
+        }
+    }
+    .pay {
+        margin: 0.2rem 0.15rem 0.1rem 0.15rem;
+        .title {
+            font-size: 0.14rem;
+            color: #666;
+            margin-bottom: 0.05rem;
+        }
+        .action {
+            background: #fff;
+            width: 100%;
+            box-sizing: border-box;
+            height: 0.55rem;
+            padding: 0 0.15rem 0 0.15rem;
+            font-size: 0.16rem;
+            color: #333;
+            line-height: 0.55rem;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 0.03rem;
+            span img {
+                height: 0.4rem;
+            }
+            img {
+                height: 0.15rem;
+                margin: auto 0;
+            }
+        }
+    }
+    .invoiceInfo {
+        margin: 0 0.15rem 0 0.15rem;
+        font-size: 0.14rem;
+        color: #aaa;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 0.15rem;
+        margin-bottom: 0.7rem;
+        img {
+            width: 0.15rem;
+            height: 0.15rem;
+        }
+    }
+    .toCharge {
+        width: 92%;
+        margin: 0 auto;
+        height: 0.45rem;
+        background: #ffb820;
+        text-align: center;
+        line-height: 0.45rem;
+        font-size: 0.18rem;
+        color: #333;
+        border-radius: 0.06rem;
+        // position: fixed;
+        // bottom: 0.4rem;
+        // left: 0;
+        // right: 0;
+    }
+    .toast {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: transparent;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .toastTip {
+        text-align: center;
+        background: rgba(40, 40, 40, 0.75);
+        margin: 0 auto;
+        margin-top: 1.9rem;
+        border-radius: 0.08rem;
+        color: #fff;
+        font-size: 0.15rem;
+        width: 1.2rem;
+        height: 1.2rem;
+        /* line-height: 1.5rem; */
+        box-sizing: border-box;
+        padding: 0.45rem 0.1rem 0 0.1rem;
+    }
+}

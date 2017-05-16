@@ -1,0 +1,114 @@
+// html{
+//     background: #fff;
+// }
+// #app {
+//     height: 100%;
+//     .com-app {
+//         height: auto;
+//          background: #fff;
+//     }
+// }
+.unmanedUploadPage{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding:0.2rem 0.36rem 0 0.36rem;
+    font-size: 0.15rem;
+    background: #fff;
+    .tips{
+        width: 100%;
+        margin-bottom: 0.16rem;
+        img{
+            width: 94%;
+            display: block;
+            margin: 0 auto;
+        }
+        
+    }
+    .uploadCon{
+        margin: 0 auto;
+        width: 100%;
+        // height: 3.58rem;  
+        border: 1px solid black;
+        position: relative;
+       .imgLeve1{
+           width: 100%;
+            filter: blur(5px);
+            opacity: 0.6
+       }
+     
+        .imgLeve2{
+            width: 60%;
+            top: 0.32rem;
+            left: 0;
+            right: 0;
+            position: absolute;
+            margin: auto;
+
+        }
+        .default{
+            width: 60%;
+            top: 0.32rem;
+            left: 0;
+            right: 0;
+            position: absolute;
+            margin: auto;
+            background: #fff;
+            padding: 0.2rem;
+            box-sizing: border-box;
+            border-radius: 0.1rem;
+        }
+        .tipContent{
+            width: 100%;
+            margin-top: 0.12rem;
+            position: absolute;
+            bottom: 0.12rem;
+            .text{
+                width: 100%;
+                text-align: center;
+                font-size: 0.15rem;
+                 margin-bottom: 0.12rem
+            }
+            .toChoose{
+                width: 79%;
+                height: 0.36rem;
+                text-align: center;
+                color: #fff;
+                background: #f44732;
+                line-height: 0.36rem;
+                font-size: 0.18rem;
+                margin:  auto;
+                border-radius: 0.25rem;
+
+
+            }
+        }
+             
+       
+     
+  
+     
+    }
+    .toJump{
+        // position: absolute;
+      margin-top: 0.52rem;
+        .ignore{
+            width: 100%;
+            text-align: center;
+           color: #666;
+           font-size: 0.14rem;
+           
+        }
+        .uploadImg{
+             margin: 0 auto;
+             width: 100%;
+             height: 0.44rem;
+            background: #ffc81b;
+            text-align: center;
+            color: #f44732;
+            line-height: 0.44rem;
+            border-radius: 0.25rem;
+             margin-bottom: 0.2rem;
+        }
+    }
+}

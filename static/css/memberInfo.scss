@@ -1,0 +1,47 @@
+@import "base/min";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#mes {
+    background: #ffd01b;
+    text-align: center;
+    .photo {
+        margin-top: 20px;
+        width: 70px;
+        height:70px;
+        border-radius: 35px;
+        text-align: center;
+    }
+    >label {
+        color: #f44732;
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 18px;
+        position: relative;
+        span {
+            top: 12px;
+        }
+    }
+    .level_style {
+        width: 69px;
+        height: 20px;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+    }
+    #score{
+    	font-size:18px;
+    	line-height:21px;
+    	margin-top:20px;
+    	margin-bottom:22px;
+    	text-align:center;
+
+    }
+}
+.showMes{
+	margin-top:32px;
+  width:90%;
+  margin-left:5%;
+}

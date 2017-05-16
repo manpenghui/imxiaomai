@@ -1,0 +1,80 @@
+.growupPage {
+    width: 100%;
+    .header {
+        width: 100%;
+        height: 1rem;
+        background: #f44732;
+        box-sizing: border-box;
+        padding-left: 0.12rem;
+        margin-bottom: 0.08rem;
+        .data {
+            font-size: 0.15rem;
+            color: #fff;
+            width: 100%;
+            height: 100%;
+            line-height: 1rem;
+            .mount {
+                font-size: 0.28rem;
+            }
+        }
+    }
+    .title {
+        width: 100%;
+        height: 0.44rem;
+        color: #f44732;
+        text-align: center;
+        line-height: 0.44rem;
+        border-bottom: 1px solid #eee;
+        background: #fff;
+    }
+    .container {
+        background: #fff;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0.12rem 0 0.12rem;
+        margin-bottom: 0.6rem;
+        .item {
+            display: flex;
+            justify-content: space-between;
+            height: 0.6rem;
+            border-bottom: 1px solid #999;
+            box-sizing: border-box;
+            padding: 0.12rem 0 0.12rem 0;
+            .left {
+                p:first-child {
+                    color: #333;
+                    margin-bottom: 0.08rem;
+                }
+                p:last-child {
+                    color: #777;
+                    font-size: 0.13rem;
+                }
+            }
+            .right {
+                color: #2e485d;
+                font-size: 0.2rem;
+                p {
+                    line-height: 0.4rem;
+                }
+            }
+        }
+        .item:last-child {
+            border: 0
+        }
+    }
+    #footer {
+        width: 100%;
+        height: .43rem;
+        background: #e9e9e9;
+        text-align: center;
+        box-sizing: border-box;
+        color: #777;
+        padding-top: .2rem;
+        font-size: .12rem;
+        margin-bottom: .5rem;
+        margin-top: .2rem;
+    }
+    #footer.hidden {
+        display: none;
+    }
+}

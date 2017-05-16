@@ -1,0 +1,159 @@
+@import "base/min";
+#minePage {
+    padding-bottom: 1rem;
+    background: #f6f6f6;
+    .header {
+        width: 100%;
+        height: 2.32rem;
+        box-sizing: border-box;
+        background: #ffd01b;
+        box-shadow: 0px 0.03rem 0.2rem #333;
+        border-bottom-left-radius: 0.15rem;
+        border-bottom-right-radius: 0.15rem;
+        margin-bottom: 0.12rem;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        // a {
+        //     display: block;
+        // }
+        .vip {
+            display: block;
+            margin-left: 0.2rem;
+            margin-top: 0.56rem;
+            margin-right: 0.3rem;
+            position: relative;
+            float: left;
+            .avatar {
+                display: block;
+                width: 0.69rem;
+                height: 0.69rem;
+                border-radius: 50%;
+            }
+            .level {
+                display: block;
+                width: 0.69rem;
+                height: 0.2rem;
+                position: absolute;
+                top: 0.6rem;
+            }
+            .nickname {
+                display: block;
+                margin-top: 0.3rem;
+                text-align: center;
+            }
+        }
+        .qrcode {
+            margin-right: 0.18rem;
+            // float: right;
+            .tip {
+                width: 100%;
+                text-align: center;
+                font-size: 0.11rem;
+                margin-top: 0.09rem;
+            }
+            .qrcodeImg {
+                // height: 1.68rem;
+                // width: 1.68rem;
+                margin: 0.09rem 0 0.07rem 0;
+            }
+            .account {
+                font-size: 0.12rem;
+                // margin-bottom: 0.12rem;
+            }
+        }
+    }
+    .orderContainer {
+        background: #fff;
+        width: 100%;
+        height: 0.71rem;
+        box-sizing: border-box;
+        margin-bottom: 0.05rem;
+        padding: 0.11rem 0 0.1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a {
+            display: inline-block;
+            text-align: center;
+            width: 33.3%;
+            span {
+                font-size: 0.15rem;
+                color: #666;
+            }
+            img {
+                width: 0.27rem;
+                height: 0.27rem;
+                margin: auto;
+                display: block;
+                margin-bottom: 0.08rem;
+            }
+            .redCircle {
+                width: .08rem;
+                height: 0.08rem;
+                border-radius: 50%;
+                background: #f44735;
+                display: inline-block;
+                margin-left: -0.08rem;
+            }
+            // .unpay::before {
+            //     content: "";
+            //     display: inline-block;
+            // }
+        }
+        .all {
+            position: relative;
+            .next {
+                width: auto;
+                height: 0.2rem;
+                position: absolute;
+                right: 0.11rem;
+                top: 33%;
+            }
+        }
+    }
+    .userDetail {
+        background: #fff;
+        padding-left: 0.12rem;
+        padding-right: 0.12rem;
+        .item {
+            border-bottom: 1px solid #eee;
+            a {
+                width: 100%;
+                height: 0.52rem;
+                display: flex;
+                justify-content: space-between;
+                box-sizing: border-box;
+                line-height: 0.52rem;
+                .item-left {
+                    font-size: 0.15rem;
+                    color: #666;
+                    img {
+                        width: 0.28rem;
+                        height: 0.28rem;
+                        display: inline-block;
+                        margin-right: 0.08rem;
+                    }
+                }
+                .item-right {
+                    img {
+                        height: 0.20rem;
+                        margin: auto 0;
+                        margin-bottom: 0.03rem;
+                    }
+                    .first {
+                        color: #f44732;
+                        font-size: 0.17rem;
+                    }
+                    .sec {
+                        color: #333;
+                        font-size: 0.13rem;
+                    }
+                }
+            }
+        }
+        .item:last-child {
+            border-bottom: 0;
+        }
+    }
+}
